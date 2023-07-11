@@ -3,7 +3,7 @@ import ButtonWithOutline from "./ButtonWithOutline";
 export default function Carousel({ products }) {
   return (
     <div>
-      <div className="mx-auto max-w-2xl py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <div className="mx-auto max-w-2xl py-16 px-1 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
         <h2 id="products-heading" className="sr-only">
           Products
         </h2>
@@ -14,7 +14,7 @@ export default function Carousel({ products }) {
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
                 <img
                   src={product.imageSrc}
-                  className="h-full w-6/12 m-auto object-cover object-center group-hover:opacity-75"
+                  className="h-full w-[200px] m-auto object-cover object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4 flex items-center justify-center  text-center font-medium text-gray-900">
