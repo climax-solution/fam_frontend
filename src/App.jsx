@@ -57,7 +57,7 @@ function App() {
               <HeroMain />
             </div>
             <div className="w-full md:w-2/5 hover-animation order-2">
-              <img className="m-auto w-[200px]" src={mainKey} />
+              <img className="m-auto" src={mainKey} />
             </div>
             <div className="w-full md:w-2/5 flex flex-col items-center order-3">
               <img src={stars} className="my-20  md:mb-20" />
