@@ -14,7 +14,7 @@ export default function Carousel({ products }) {
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
                 <img
                   src={product.imageSrc}
-                  className="h-full m-auto object-center group-hover:opacity-75"
+                  className="m-auto object-center group-hover:opacity-75"
                 />
               </div>
               <div className="mt-4 flex items-center justify-center  text-center font-medium text-gray-900">
