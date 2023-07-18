@@ -4,7 +4,7 @@ const Timer = () => {
   const [remainingTime, setRemainingTime] = useState(0);
 
   useEffect(() => {
-    const targetTime = new Date().getTime() + 600000; // 10 minutes in milliseconds
+    const targetTime = new Date().getTime() + 60000000; // 10 minutes in milliseconds
 
     const timer = setInterval(() => {
       const currentTime = new Date().getTime();

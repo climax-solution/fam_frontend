@@ -23,7 +23,7 @@ function App() {
       imageSrc: woodKey,
     },
     {
-      id: 1,
+      id: 2,
       name: "SILVER KEY",
       href: "#",
       description:
@@ -31,7 +31,7 @@ function App() {
       imageSrc: silverKey,
     },
     {
-      id: 1,
+      id: 3,
       name: "POUNAMU KEY",
       href: "#",
       description:
@@ -52,29 +52,29 @@ function App() {
           <div className="w-full flex flex-row items-center justify-center">
             <Timer />
           </div>
-          <div className="flex  flex-col md:flex-row items-center justify-between">
+          <div className="flex  flex-col md:flex-row justify-between">
             <div className="w-full md:w-2/5 order-1">
               <HeroMain />
             </div>
             <div className="w-full md:w-2/5 hover-animation order-2">
               <img className="m-auto" src={mainKey} />
             </div>
-            <div className="w-full md:w-2/5 flex flex-col items-center order-3">
+            <div className="w-full md:w-2/5 mt-[12%] flex flex-col items-center order-3">
               <img src={stars} className="my-20  md:mb-20" />
               <div className="flex items-center md:mt-20">
                 <div className="flex flex-col items-center mr-5">
-                  <p className="text-white text-[30px] leading 10">333</p>
-                  <p className="text-white text-sm leading-10">
+                  <p className="text-white text-[30px] leading-10">333</p>
+                  <p className="text-white text-sm leading-5">
                     Only 333 total
                   </p>
                 </div>
                 <div className="flex flex-col items-center mr-5">
-                  <p className="text-white text-[30px] leading 10">35%</p>
-                  <p className="text-white text-sm leading-10">Rare Keys</p>
+                  <p className="text-white text-[30px] leading-10">35%</p>
+                  <p className="text-white text-sm leading-5">Rare Keys</p>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-white text-[30px] leading 10">15%</p>
-                  <p className="text-white text-sm leading-10">
+                  <p className="text-white text-[30px] leading-10">15%</p>
+                  <p className="text-white text-sm leading-5">
                     Legendary Keys
                   </p>
                 </div>
