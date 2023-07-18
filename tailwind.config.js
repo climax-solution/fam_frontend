@@ -9,6 +9,9 @@ export default {
       scale: {
         175: "3.45"
       },
+      colors: {
+        'navbar-color': 'rgba(0,0,0,0.6)',
+      }
     },
   },
   plugins: [],
