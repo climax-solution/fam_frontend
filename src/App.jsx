@@ -68,10 +68,12 @@ function App() {
                     Only 333 total
                   </p>
                 </div>
+                <div className="mr-5 h-2/3 w-[2px] bg-pink-500"></div>
                 <div className="flex flex-col items-center mr-5">
                   <p className="text-white text-[30px] leading-10">35%</p>
                   <p className="text-white text-sm leading-5">Rare Keys</p>
                 </div>
+                <div className="mr-5 h-2/3 w-[2px] bg-pink-500"></div>
                 <div className="flex flex-col items-center">
                   <p className="text-white text-[30px] leading-10">15%</p>
                   <p className="text-white text-sm leading-5">

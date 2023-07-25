@@ -14,7 +14,6 @@ export default function Footer() {
       </div>
 
       <div className="flex space-x-3">
-        <img src={facebook} alt="Facebook" />
         <img src={instagram} alt="Instagram" />
         <img src={twitter} alt="Twitter" />
         <img src={music} alt="Music" />

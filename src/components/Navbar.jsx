@@ -19,7 +19,6 @@ const Navbar = () => {
           <p className="text-white font-semibold">ABOUT</p>
         </div>
         <div className="flex hidden md:inline-flex justify-center md:justify-items-end space-x-3 md:mr-5">
-          <img src={facebook} alt="Facebook" />
           <img src={instagram} alt="Instagram" />
           <img src={twitter} alt="Twitter" />
           <img src={music} alt="Music" />
