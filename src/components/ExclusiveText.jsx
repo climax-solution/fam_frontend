@@ -1,6 +1,6 @@
 export default function ExclusiveText() {
   return (
-    <div className="p-5 md:p-20 flex flex-col justify-center sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
+    <div id="about" className="p-5 md:p-20 flex flex-col justify-center sm:px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
       <div className="p-10">
         <div className="flex justify-center items-center mt-20">
           <h1 className="text-center text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl flex-grow">
