@@ -9,8 +9,8 @@ export default function Carousel({ products }) {
         </h2>
 
         <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-x-8">
-          {products.map((product) => (
-            <a key={product.id} href={product.href} className="group">
+          {products.map((product, idx) => (
+            <a key={idx} href={product.href} className="group">
               <div className="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg sm:aspect-w-2 sm:aspect-h-3">
                 <img
                   src={product.imageSrc}

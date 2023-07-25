@@ -9,7 +9,7 @@ import {
   Navbar,
   Timer,
 } from "./components";
-import backgroundImage from "./assets/BG1.png";
+import backgroundImage from "./assets/BG1_1.png";
 import mainKey from "./assets/Pounamu_key_on_basd.png";
 import stars from "./assets/stars.png";
 function App() {
