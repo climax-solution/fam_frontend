@@ -8,7 +8,7 @@ export default function HeroMain() {
           It's time to unlock the{" "}
           <span className="text-[#26E2FF]">FAMVERSE</span>
         </h1>
-        <p className="md:mt-[40%] mt-10 mb-5 text-center md:text-left text-gray-300 sm:mt-5 sm:text-base lg:text-lg xl:text-xl">
+        <p className="md:mt-[10%] mt-10 mb-5 text-center md:text-left text-gray-300 sm:mt-5 sm:text-base lg:text-lg xl:text-xl">
           Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem
           cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua
           ad ad non deserunt sunt.
