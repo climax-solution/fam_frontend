@@ -41,7 +41,7 @@ function App() {
   ];
 
   return (
-    <div className="bg-neutral-900 py-9 px-5  relative overflow-hidden"  id="home">
+    <div className="bg-neutral-900 py-9 px-5  relative overflow-hidden">
       <img
         src={backgroundImage}
         className="absolute top-0 left-0 -z-0 scale-175 md:scale-150"
@@ -64,19 +64,19 @@ function App() {
               <div className="flex items-center md:mt-20">
                 <div className="flex flex-col items-center mr-5">
                   <p className="text-white text-[30px] leading-10">333</p>
-                  <p className="text-white text-sm leading-5">
+                  <p className="text-white text-sm leading-5 text-center">
                     Only 333 total
                   </p>
                 </div>
                 <div className="mr-5 h-2/3 w-[2px] bg-pink-500"></div>
                 <div className="flex flex-col items-center mr-5">
                   <p className="text-white text-[30px] leading-10">35%</p>
-                  <p className="text-white text-sm leading-5">Rare Keys</p>
+                  <p className="text-white text-sm leading-5 text-center">Rare Keys</p>
                 </div>
                 <div className="mr-5 h-2/3 w-[2px] bg-pink-500"></div>
                 <div className="flex flex-col items-center">
                   <p className="text-white text-[30px] leading-10">15%</p>
-                  <p className="text-white text-sm leading-5">
+                  <p className="text-white text-sm leading-5 text-center">
                     Legendary Keys
                   </p>
                 </div>
